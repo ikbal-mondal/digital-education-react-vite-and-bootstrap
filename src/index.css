@@ -1,0 +1,325 @@
+.card-img {
+  background-image: url(./assets/Ellipse\ .png), url(./assets/Ellipse\ 2.png);
+}
+
+@media (max-width: 768px) {
+  .c-img {
+    width: 50px;
+  }
+}
+
+.download-btn {
+  background-color: #21409A;
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 14px 20px;
+  border: #21409A;
+}
+
+.outline-btn {
+  border: 1px solid #21409A;
+  font-size: 13px;
+  color: #21409A;
+  border-radius: 30px;
+  padding: 14px 20px;
+}
+
+.Download-Icon {
+  width: 14px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+.icon-nbr {
+  background-color: #21409A;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  left: -7px;
+  top: -10px;
+}
+
+.admission-open-info {
+  background-color: #21409A;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.admission-containt {
+  display: flex;
+  justify-content: end;
+  gap: 200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .admission-containt {
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./assets/Rectangle-banner-bg.png);
+}
+
+/*  */
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+  border-radius: 50%;
+  position: relative;
+  top: 41px;
+}
+
+.Our-Programmes-title {
+  color: #252525;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46.416px;
+  letter-spacing: 0.72px;
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
+
+.card-bg {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./assets/Ellipse-bg\ .png);
+  /* width: 100px; */
+}
+
+
+
+
+.card-wrapper {
+  width: 100%;
+  height: 262px;
+  background-image: url(/src/assets/Banner-image.png);
+  background-position: left -44px top -17px, center;
+  background-repeat: no-repeat, no-repeat;
+  border-radius: 30px 16px 13px 30px;
+  box-shadow: 4px 9px 23px #e6eef7;
+}
+
+.parent-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.card-container-box {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  width: 85%;
+  margin: 55px auto;
+  gap: 81px;
+  align-content: center;
+  height: 262px;
+  margin: 0px 52px;
+}
+
+.card-icon-img {
+  width: 74px;
+  height: 95px;
+}
+
+.title {
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46.872px;
+  letter-spacing: 0.54px;
+}
+
+.card-paragraph {
+  color: #333;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.396px;
+  letter-spacing: 0.27px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .parent-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px auto;
+  }
+
+  .card-container-box {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    align-content: center;
+    height: 262px;
+    gap: 51px;
+    margin: 7px 5px 15px 9px;
+  }
+
+  .card-wrapper {
+    width: 100%;
+    height: 262px;
+    background-image: url(/src/assets/Banner-image.png);
+    background-position: left -105px top -21px, center;
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 30px 0 0 30px;
+    border: 1px solid #f3f3f3;
+    margin-left: -0px;
+  }
+
+
+  .title {
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+  }
+
+  .card-paragraph {
+    color: #333;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 599px) {
+
+  .parent-container {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .card-wrapper {
+    width: 100%;
+    height: 262px;
+    background-image: url(/src/assets/Banner-image.png);
+    background-position: left -88px top -17px, center;
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 30px 16px 13px 30px;
+    box-shadow: 4px 9px 23px #e6eef7;
+    width: 100%;
+  }
+
+  .card-container-box {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    align-content: center;
+    margin: 0px 20px;
+    width: 100%;
+  }
+
+  .card-icon-img {
+    width: 92px;
+    height: 97px;
+}
+  .title {
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+  }
+
+  .card-paragraph {
+    color: #333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+  }
+
+  .Our-Programmes-title {
+    color: #252525;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46.416px;
+    letter-spacing: 0.72px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 992px) {
+  .parent-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
+    width: 100%;
+
+  }
+
+
+
+}
